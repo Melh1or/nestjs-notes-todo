@@ -2,8 +2,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { SwaggerModule, DocumentBuilder } from "@nestjs/swagger";
 import * as dotenv from "dotenv";
-import { NoteModule } from "../src/modules/note.module";
-
+import { NoteModule } from './modules/note.module';
 
 dotenv.config();
 
